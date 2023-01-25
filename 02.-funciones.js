@@ -4,11 +4,13 @@
 
 // var example;
 // example = 'Hello, world!';
+// console.log(example);
 
 // IMPORTANTE:
 // DEBEMOS DEFINIR Y ASIGNAR VALOR A LA VEZ:
 
 // var example = 'Hello, world!';
+// console.log(example);
 
 // IMPORTANTE:
 // NO DEBEMOS UTILIZAR var, SINO:
@@ -36,30 +38,30 @@
 
 // console.log(hoistedHello);
 
-// var hoistedHello = 'Hello, world!'; // undefined
+// var hoistedHello = 'Hello, world!';
 
 // console.log(notHoistedHello);
 
-// let notHoistedHello = 'Hello, world'; // ReferenceError
+// let notHoistedHello = 'Hello, world';
 
 
 // ---
 // Ejemplo de reasignación:
 
 // var varReassignExample = 'Hello, world!';
-// console.log(varReassignExample); // 'Hello, world!'
+// console.log(varReassignExample);
 
 // let letReassignExample = 'Hello, world!';
-// console.log(letReassignExample); // 'Hello, world!'
+// console.log(letReassignExample);
 
 // const constReassignExample = 'Hello, world!';
-// console.log(constReassignExample); // 'Hello, world!'
+// console.log(constReassignExample);
 
 // varReassignExample = 'Goodbye, world!';
-// console.log(varReassignExample); // 'Goodbye, world!'
+// console.log(varReassignExample);
 
 // letReassignExample = 'Goodbye, world!';
-// console.log(letReassignExample); // 'Goodbye, world!'
+// console.log(letReassignExample);
 
-// constReassignExample = 'Goodbye, world!'; // TypeError
+// constReassignExample = 'Goodbye, world!';
 
